@@ -1,0 +1,13 @@
+@import '~assets/styles/variables';
+
+.box {
+  background-color: $white;
+  padding: 0;
+}
+
+.header {
+  color: $white;
+  font-size: 18px;
+  padding: 0 $size-4;
+  line-height: 1.7;
+}

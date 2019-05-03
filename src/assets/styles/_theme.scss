@@ -1,0 +1,23 @@
+
+// Import only what you need from Bulma
+@import "~bulma/sass/base/all";
+@import "~bulma/sass/elements/button";
+@import "~bulma/sass/elements/container";
+@import "~bulma/sass/elements/title";
+@import "~bulma/sass/elements/box";
+@import "~bulma/sass/elements/progress";
+
+.box {
+  margin-top: 2rem;
+}
+
+.container {
+  padding: 0 $size-4;
+}
+
+.progress {
+  border-radius: 0;
+   &:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

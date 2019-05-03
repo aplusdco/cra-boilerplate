@@ -1,0 +1,27 @@
+@import '~assets/styles/variables';
+
+.navbar {
+  background-color: #FFF;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2em 0;
+
+  h1 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  img {
+    margin-right: 15px;
+    width: 80px;
+    margin-bottom: -1px;
+  }
+}
+
