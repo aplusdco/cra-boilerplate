@@ -9,7 +9,7 @@ class App extends Component<any, any> {
     super(props)
 
     history.listen((location, action) => {
-      window.analytics.page()
+      // window.analytics.page()
     })
   }
 
